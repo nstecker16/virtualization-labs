@@ -18,7 +18,7 @@ I am accessing the Proxmox VE web UI on my main desktop via Ethernet connections
 Create several subnets that perform different network functions  
 
 ### Network Services Subnet
-- [ ] Create a firewall container  
+- [ ] Create a firewall VM  
 - [ ] Create a DNS container  
 - [ ] Create a DHCP container  
 - [ ] Create a domain controller container  
@@ -29,6 +29,16 @@ Create several subnets that perform different network functions
 ## Environment
 
 ### Machines
+
+#### Naming/ID Conventions
+Machines should be named according to the OS or image that is installed on the machine followed by a number noting the instance of that image  
+For example:  
+- ubuntu-1 would be the first instance of a machine running the Ubuntu OS  
+- ubuntu-2 would be the second Ubuntu instance  
+
+Machines should be given container IDs based on the final byte in their IP address  
+- The range of addresses allotted for Proxmox VMs is xx.xx.xx.202-255  
+- xx.xx.xx.201 is the address for the Proxmox node  
 
 ### Networking
 
