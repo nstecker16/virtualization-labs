@@ -17,8 +17,7 @@ I am accessing the Proxmox VE web UI on my main desktop via Ethernet connections
 ## Objectives
 Create several subnets that perform different network functions  
 
-### Network Services Subnet
-- [ ] Create a firewall VM  
+### Network Services Subnet  
 - [ ] Create a DNS container  
 - [ ] Create a DHCP container  
 - [ ] Create a domain controller container  
