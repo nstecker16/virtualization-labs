@@ -6,6 +6,12 @@ Utilized [this guide][opn-sense-configuration]
 
 ## Configuration
 
+### Virtual Hardware
+
+- 4 GB RAM
+- 1 CPU socket, 4 cores
+- 20 GB disk storage
+
 ### Network Interfaces
 
 - vtnet0
