@@ -19,24 +19,30 @@ Create a functioning Windows Server environment including a router, Windows Serv
 
 ## Environment
 
-### Machines
-
 #### Naming/ID Conventions
 Machines should be named according to the OS or image that is installed on the machine followed by a number noting the instance of that image  
 For example:  
-- windows11-1 would be the first instance of a machine running the Ubuntu OS  
-- windows11-2 would be the second Ubuntu instance  
+- windows11-1 would be the first instance of a machine running the Windows 11 OS  
+- windows11-2 would be the second Windows instance  
 
 Machines should be given container IDs based on the final byte in their IP address  
-- The range of addresses allotted for Proxmox VMs is xx.xx.xx.202-255  
-- xx.xx.xx.201 is the address for the Proxmox node  
+- Internal network is 10.0.0.0/8  
+- IDs start at 100, so first address would be 10.0.0.100
+
+### Machines
+
+- [100 (OPNSense)](/machine-configurations/opnsense.md)
+    - Router VM
+    - 10.0.0.100
 
 ### Networking
 
+#### IP Addressing
+
+The internal Proxmox VE network is 10.0.0.0/8  
+
 #### Topology
 ![Network Topology](./proxmox-topology.png)  
-
-#### IP Addressing
 
 ### Services
 
