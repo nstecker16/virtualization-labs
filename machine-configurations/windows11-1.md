@@ -4,7 +4,11 @@
 
 - Used [this guide][win11-install-guide]
 
-## Details
+## Configuration
+
+- Login
+    - user: windows11-1
+    - pass: windows11-1
 
 ### Virtual Hardware
 
