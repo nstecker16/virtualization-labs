@@ -6,6 +6,10 @@ Utilized [this guide][opn-sense-configuration]
 
 ## Configuration
 
+- Login
+    - user: root
+    - pass: opnsense-1
+
 ### Virtual Hardware
 
 - 4 GB RAM
